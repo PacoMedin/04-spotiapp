@@ -1,0 +1,7 @@
+<h1 class="m-5">Países<small> donde se habla español</small></h1>
+<hr>
+<ul>
+    <li *ngFor="let item of paises">
+        {{ item.name }} - {{ item.population | number }}
+    </li>
+</ul>
